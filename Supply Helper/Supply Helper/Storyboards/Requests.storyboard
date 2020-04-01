@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G6c-qf-ZXH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="hsM-vY-9ua">
+            <objects>
+                <viewController id="8p7-Yi-rux" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zWL-Eb-xej">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="A2h-gD-N31">
+                                <rect key="frame" x="20" y="179" width="374" height="663"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="sVA-eg-0IH">
+                                <rect key="frame" x="20" y="128" width="374" height="32"/>
+                                <segments>
+                                    <segment title="5 mi"/>
+                                    <segment title="10 mi"/>
+                                    <segment title="15 mi"/>
+                                    <segment title="20 mi"/>
+                                    <segment title="25 mi"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="sVA-eg-0IH" firstAttribute="top" secondItem="oL9-Z4-fHd" secondAttribute="top" constant="40" id="0bF-Z2-lwe"/>
+                            <constraint firstItem="A2h-gD-N31" firstAttribute="top" secondItem="sVA-eg-0IH" secondAttribute="bottom" constant="20" id="7SR-Kp-Kus"/>
+                            <constraint firstItem="A2h-gD-N31" firstAttribute="leading" secondItem="oL9-Z4-fHd" secondAttribute="leading" constant="20" id="8Sc-MZ-6gI"/>
+                            <constraint firstItem="oL9-Z4-fHd" firstAttribute="trailing" secondItem="sVA-eg-0IH" secondAttribute="trailing" constant="20" id="P4g-iG-84m"/>
+                            <constraint firstItem="sVA-eg-0IH" firstAttribute="leading" secondItem="oL9-Z4-fHd" secondAttribute="leading" constant="20" id="Ymn-HK-2tB"/>
+                            <constraint firstItem="oL9-Z4-fHd" firstAttribute="bottom" secondItem="A2h-gD-N31" secondAttribute="bottom" constant="20" id="ZnB-bd-fU9"/>
+                            <constraint firstItem="oL9-Z4-fHd" firstAttribute="trailing" secondItem="A2h-gD-N31" secondAttribute="trailing" constant="20" id="ybn-NT-XpP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oL9-Z4-fHd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wv4-Af-QgI">
+                        <barButtonItem key="rightBarButtonItem" title="Map" id="VzI-9J-tRF">
+                            <connections>
+                                <segue destination="r23-jB-dg0" kind="show" id="QPL-1A-eck"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gu0-ot-uoX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855.07246376811599" y="87.723214285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1hx-hQ-2If">
+            <objects>
+                <viewController id="r23-jB-dg0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gAq-tH-k3E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VRh-nV-d0m">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yqN-m2-fh4" firstAttribute="bottom" secondItem="VRh-nV-d0m" secondAttribute="bottom" id="5eq-fq-Mph"/>
+                            <constraint firstItem="yqN-m2-fh4" firstAttribute="trailing" secondItem="VRh-nV-d0m" secondAttribute="trailing" id="Vi8-Gw-she"/>
+                            <constraint firstItem="VRh-nV-d0m" firstAttribute="leading" secondItem="yqN-m2-fh4" secondAttribute="leading" id="pCa-zR-nGG"/>
+                            <constraint firstItem="VRh-nV-d0m" firstAttribute="top" secondItem="yqN-m2-fh4" secondAttribute="top" id="yRH-xP-VbX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yqN-m2-fh4"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nOl-N5-tmB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="huu-oa-roa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1593" y="88"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eDE-3U-NHG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G6c-qf-ZXH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="02U-tr-aRk">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8p7-Yi-rux" kind="relationship" relationship="rootViewController" id="PGd-Z4-6yh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oEl-Dj-bEr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55.072463768115945" y="87.723214285714278"/>
+        </scene>
+    </scenes>
+</document>

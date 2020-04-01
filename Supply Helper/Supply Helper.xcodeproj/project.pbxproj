@@ -27,6 +27,7 @@
 		FBA7620B2433DC59008DF3E4 /* UserAUTHProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7620A2433DC59008DF3E4 /* UserAUTHProtocol.swift */; };
 		FBA7620D2434EC94008DF3E4 /* ModelNetworkControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7620C2434EC94008DF3E4 /* ModelNetworkControllerProtocol.swift */; };
 		FBA7620F2434ECD4008DF3E4 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7620E2434ECD4008DF3E4 /* ModelController.swift */; };
+		FBA7621124350024008DF3E4 /* Requests.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA7621024350024008DF3E4 /* Requests.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		FBA7620A2433DC59008DF3E4 /* UserAUTHProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAUTHProtocol.swift; sourceTree = "<group>"; };
 		FBA7620C2434EC94008DF3E4 /* ModelNetworkControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelNetworkControllerProtocol.swift; sourceTree = "<group>"; };
 		FBA7620E2434ECD4008DF3E4 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		FBA7621024350024008DF3E4 /* Requests.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Requests.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			children = (
 				FBA761E6243272AE008DF3E4 /* LaunchScreen.storyboard */,
 				FBA761DE243272A6008DF3E4 /* Main.storyboard */,
+				FBA7621024350024008DF3E4 /* Requests.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				FBA761E8243272AE008DF3E4 /* LaunchScreen.storyboard in Resources */,
 				FBA761F824329289008DF3E4 /* Default-568h@2x.png in Resources */,
 				FBA761E5243272AE008DF3E4 /* Assets.xcassets in Resources */,
+				FBA7621124350024008DF3E4 /* Requests.storyboard in Resources */,
 				FBA761E0243272A6008DF3E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
