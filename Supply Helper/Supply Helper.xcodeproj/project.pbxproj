@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15F6BF30597F3F19DA9CCC90 /* Pods_Supply_Helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB92FEB971288D02FFE5E7A5 /* Pods_Supply_Helper.framework */; };
 		FBA761D9243272A6008DF3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA761D8243272A6008DF3E4 /* AppDelegate.swift */; };
 		FBA761DB243272A6008DF3E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA761DA243272A6008DF3E4 /* SceneDelegate.swift */; };
 		FBA761DD243272A6008DF3E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA761DC243272A6008DF3E4 /* ViewController.swift */; };
@@ -21,9 +22,17 @@
 		FBA762002432AE0A008DF3E4 /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA761FF2432AE0A008DF3E4 /* InventoryItem.swift */; };
 		FBA762022432AFD5008DF3E4 /* LocationInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA762012432AFD5008DF3E4 /* LocationInventory.swift */; };
 		FBA762042433741D008DF3E4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA762032433741D008DF3E4 /* Request.swift */; };
+		FBA7620724338481008DF3E4 /* WebRESTAPINetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7620624338480008DF3E4 /* WebRESTAPINetworkController.swift */; };
+		FBA7620924338530008DF3E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7620824338530008DF3E4 /* Constants.swift */; };
+		FBA7620B2433DC59008DF3E4 /* UserAUTHProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7620A2433DC59008DF3E4 /* UserAUTHProtocol.swift */; };
+		FBA7620D2434EC94008DF3E4 /* ModelNetworkControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7620C2434EC94008DF3E4 /* ModelNetworkControllerProtocol.swift */; };
+		FBA7620F2434ECD4008DF3E4 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7620E2434ECD4008DF3E4 /* ModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020F4B2C33BFD2E3ABD398EB /* Pods-Supply Helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supply Helper.debug.xcconfig"; path = "Target Support Files/Pods-Supply Helper/Pods-Supply Helper.debug.xcconfig"; sourceTree = "<group>"; };
+		6148C1D22B1814A21F586775 /* Pods-Supply Helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supply Helper.release.xcconfig"; path = "Target Support Files/Pods-Supply Helper/Pods-Supply Helper.release.xcconfig"; sourceTree = "<group>"; };
+		DB92FEB971288D02FFE5E7A5 /* Pods_Supply_Helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Supply_Helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA761D5243272A5008DF3E4 /* Supply Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Supply Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA761D8243272A6008DF3E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBA761DA243272A6008DF3E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +49,11 @@
 		FBA761FF2432AE0A008DF3E4 /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
 		FBA762012432AFD5008DF3E4 /* LocationInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInventory.swift; sourceTree = "<group>"; };
 		FBA762032433741D008DF3E4 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		FBA7620624338480008DF3E4 /* WebRESTAPINetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRESTAPINetworkController.swift; sourceTree = "<group>"; };
+		FBA7620824338530008DF3E4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FBA7620A2433DC59008DF3E4 /* UserAUTHProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAUTHProtocol.swift; sourceTree = "<group>"; };
+		FBA7620C2434EC94008DF3E4 /* ModelNetworkControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelNetworkControllerProtocol.swift; sourceTree = "<group>"; };
+		FBA7620E2434ECD4008DF3E4 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F6BF30597F3F19DA9CCC90 /* Pods_Supply_Helper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80BC2D6C618D212BA98D7B8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB92FEB971288D02FFE5E7A5 /* Pods_Supply_Helper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B886BD35423121D57DE560E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				020F4B2C33BFD2E3ABD398EB /* Pods-Supply Helper.debug.xcconfig */,
+				6148C1D22B1814A21F586775 /* Pods-Supply Helper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FBA761CC243272A4008DF3E4 = {
 			isa = PBXGroup;
 			children = (
 				FBA761D7243272A5008DF3E4 /* Supply Helper */,
 				FBA761D6243272A5008DF3E4 /* Products */,
+				B886BD35423121D57DE560E7 /* Pods */,
+				80BC2D6C618D212BA98D7B8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +151,7 @@
 			children = (
 				FBA761E4243272AE008DF3E4 /* Assets.xcassets */,
 				FBA761F724329289008DF3E4 /* Default-568h@2x.png */,
+				FBA7620824338530008DF3E4 /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -138,6 +173,7 @@
 		FBA761F424329132008DF3E4 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FBA7620E2434ECD4008DF3E4 /* ModelController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -145,6 +181,8 @@
 		FBA761F524329144008DF3E4 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				FBA7620A2433DC59008DF3E4 /* UserAUTHProtocol.swift */,
+				FBA7620C2434EC94008DF3E4 /* ModelNetworkControllerProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -159,6 +197,7 @@
 		FBA76205243378E2008DF3E4 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				FBA7620624338480008DF3E4 /* WebRESTAPINetworkController.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -170,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBA761EC243272AF008DF3E4 /* Build configuration list for PBXNativeTarget "Supply Helper" */;
 			buildPhases = (
+				5AE853CF9CC0D4B87911396B /* [CP] Check Pods Manifest.lock */,
 				FBA761D1243272A5008DF3E4 /* Sources */,
 				FBA761D2243272A5008DF3E4 /* Frameworks */,
 				FBA761D3243272A5008DF3E4 /* Resources */,
+				D76C63F1D58D050358FCADB4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,14 +271,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AE853CF9CC0D4B87911396B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Supply Helper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76C63F1D58D050358FCADB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Supply Helper/Pods-Supply Helper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Supply Helper/Pods-Supply Helper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Supply Helper/Pods-Supply Helper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBA761D1243272A5008DF3E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA7620724338481008DF3E4 /* WebRESTAPINetworkController.swift in Sources */,
 				FBA761FC2432ABF7008DF3E4 /* Location.swift in Sources */,
 				FBA761DD243272A6008DF3E4 /* ViewController.swift in Sources */,
+				FBA7620F2434ECD4008DF3E4 /* ModelController.swift in Sources */,
 				FBA761FA243293DE008DF3E4 /* User.swift in Sources */,
+				FBA7620B2433DC59008DF3E4 /* UserAUTHProtocol.swift in Sources */,
 				FBA762042433741D008DF3E4 /* Request.swift in Sources */,
 				FBA761D9243272A6008DF3E4 /* AppDelegate.swift in Sources */,
 				FBA761E3243272A6008DF3E4 /* Supply_Helper.xcdatamodeld in Sources */,
@@ -245,6 +331,8 @@
 				FBA761DB243272A6008DF3E4 /* SceneDelegate.swift in Sources */,
 				FBA762022432AFD5008DF3E4 /* LocationInventory.swift in Sources */,
 				FBA762002432AE0A008DF3E4 /* InventoryItem.swift in Sources */,
+				FBA7620D2434EC94008DF3E4 /* ModelNetworkControllerProtocol.swift in Sources */,
+				FBA7620924338530008DF3E4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +474,7 @@
 		};
 		FBA761ED243272AF008DF3E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020F4B2C33BFD2E3ABD398EB /* Pods-Supply Helper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +486,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "info.emptybliss.Supply-Helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = DEBUG;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -404,6 +494,7 @@
 		};
 		FBA761EE243272AF008DF3E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6148C1D22B1814A21F586775 /* Pods-Supply Helper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

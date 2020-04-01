@@ -8,10 +8,11 @@
 
 import Foundation
 
-struct Locations: Codable {
+struct Location: Codable {
     let id: Int
     let name: String
     let address: String
     let locationLat: Float
     let locationLon: Float
+    var inventory: [LocationInventory] = []
 }

@@ -13,7 +13,7 @@ struct Request: Codable {
     let createdTimestamp: Date
     let userID: Int
     let itemID: Int
-    let fullfilled: Bool
-    let fulfilledUserID: Int
-    let fulfilledTimeStamp: Date
+    let fullfilled: Bool?
+    let fulfilledUserID: Int?
+    let fulfilledTimeStamp: Date?
 }
